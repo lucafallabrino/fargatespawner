@@ -177,7 +177,7 @@ class FargateSpawner(Spawner):
 
         self.task_arn = task_arn
 
-        max_polls = 50
+        max_polls = 500
         num_polls = 0
         task_ip = ''
         while task_ip == '':
